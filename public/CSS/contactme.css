@@ -1,0 +1,83 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    margin: 100;
+}
+
+.contact-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 200px auto;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.contact-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-card p {
+    margin: 0 0 20px;
+    color: #777;
+}
+
+.contact-card .info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-card .info div {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.contact-card .info div i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+.contact-card .social-links a {
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.contact-card .social-links a:hover {
+    color: #0056b3;
+}
+
+.contact-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-card .btn:hover {
+    background-color: #0056b3;
+}

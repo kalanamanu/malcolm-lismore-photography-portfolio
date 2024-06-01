@@ -1,0 +1,37 @@
+nav{
+  font-size: medium;
+  font-weight: 700;
+}
+
+/* Target the navigation bar element */
+
+/* Style the navigation links */
+nav a {
+  color: #333; /* Text color for links */
+  text-decoration: none; /* Remove underline initially */
+  font-weight: bold; /* Make links bolder */
+  padding: 0.5rem 1rem; /* Add some padding */
+  position: relative; /* Needed for the underline effect */
+  transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Create an "after" element for the underline */
+nav a:after {
+  content: ""; /* Empty content to create a pseudo-element */
+  position: absolute; /* Position the underline absolutely */
+  width: 100%; /* Span the full width of the link */
+  height: 2px; /* Set the height of the underline */
+  bottom: 0; /* Position it at the bottom of the link */
+  left: 0; /* Align it to the left of the link */
+  background-color: transparent; /* Transparent initially */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Add hover effect for links (underline only) */
+nav a:hover {
+  color: #c0c0c0; /* Change text color on hover (optional) */
+  /* Animate the underline color change */
+  nav a:after {
+    background-color: #c0c0c0; /* Change underline color on hover */
+  }
+}
