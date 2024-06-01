@@ -49,6 +49,12 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
 
+## About My Project
+Malcolm Lismore, a freelance photographer capturing the breathtaking landscapes of Scotland's North West coast, takes center stage on this multi-page website. Designed to be his digital portfolio and business hub, it allows visitors to explore Malcolm's stunning work and inquire about his services for weddings, portraits, and special events. This project was proudly developed by Kalana Manupiya Jayasekara for the web design and development module at Esoft Metro Campus - Kurunegala.
+
+## Acknowledgements
+This project was developed for my web design and development module at Esoft Metro Campus - Kurunegala. I would like to thank Mrs. Induni Jayathilaka for her guidance as the module Lecture.
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
