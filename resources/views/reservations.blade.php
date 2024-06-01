@@ -31,12 +31,12 @@
                     <thead>
                         <tr>
                             <th>Client ID</th>
-                            <th>fullname</th>
-                            <th>email</th>
-                            <th>phone</th>
-                            <th>date</th>
-                            <th>plan</th>
-                            <th>location</th>
+                            <th>Full name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Event Date</th>
+                            <th>Plan</th>
+                            <th>Event Location</th>
                         </tr>
                     </thead>
 
